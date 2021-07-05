@@ -1,0 +1,79 @@
+.header{
+	background-color: rgba(0,0,0,0.8)
+} 	
+
+.border {
+    display: inline-block;
+    width: 150px;
+    height: 70px;
+    margin: 6px;
+    font-size: 30px;
+    text-align: center;
+    padding: 2%;
+  }
+  
+.aside{
+	 background-color:#d3d3d3;
+}
+ 
+.bean {
+  border-radius:50%;
+  width:50%;
+  height:100%;
+}
+
+
+.beann{
+	width:80%;
+	height: 300px;
+}
+
+.footer-icons{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+	font-family: arial;
+}
+
+
+h4{
+	margin-top: 30px;
+	margin-bottom:  30px;
+	padding: 2%;
+}
+
+a.foot{
+	font-size:20px;
+}
+
+input[type=text] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-style: solid;
+}
+
+
+span{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+    }
+  

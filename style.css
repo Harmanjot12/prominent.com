@@ -1,0 +1,139 @@
+body {
+  background-image: url('homepage.png');
+  background-repeat: no-repeat;
+  background-size:auto;
+  }
+
+  .header{
+	background-color: rgba(0,0,0,0.8)
+} 	
+
+.border {
+    display: inline-block;
+    width: 150px;
+    height: 70px;
+    margin: 6px;
+    font-size: 30px;
+    text-align: center;
+    padding: 2%;
+  }
+  
+.aside{
+	 background-color:#d3d3d3;
+}
+ 
+.bean {
+  border-radius:50%;
+  width:50%;
+  height:100%;
+}
+
+
+.beann{
+	width:100%;
+	height: 300px;
+}
+
+.footer-icons{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+	font-family: arial;
+}
+
+
+h4{
+	margin-top: 30px;
+	margin-bottom:  30px;
+	padding: 2%;
+}
+
+a.foot{
+	font-size:20px;
+}
+
+input[type=text] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-style: solid;
+}
+
+
+span{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+    }
+
+
+option {
+  background-color: #bbb;
+  padding: 4px;
+  margin-bottom: 1px;
+  cursor: pointer;
+}
+
+#select{
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 20px;
+  width:250px;
+  background-color:green;
+      
+}
+
+ select#portfolio {
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+    background: white;
+    width: 200px;
+    padding: 2%;
+    margin: 6px;
+}
+
+
+.text-typing {
+  padding:5px 10px;
+  font-size:35px;
+  font-family:monospace;
+  color: orange;
+}
+.text-typing p {
+  white-space:nowrap;
+  overflow:hidden;
+  animation:typing 4s steps(22,end) forwards,
+            blink 1s infinite;
+}
+@keyframes typing {
+  0% { width:0% }
+  100% { width:100% }
+}
+@keyframes blink {
+  0%,100% {
+    border-right:2px solid transparent;
+  }
+  50% {
+    border-right:2px solid #222;
+  }
+}
